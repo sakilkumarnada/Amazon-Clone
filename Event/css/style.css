@@ -1,0 +1,192 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+    color: #f27f3d;
+    font-size: 1.25rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(60%);
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background-color: #f27f3d;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e36d2d;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Schedule Page */
+  .schedule {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .schedule h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .schedule-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .schedule-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .schedule-item p {
+    margin: 0.5rem 0;
+  }
+  
+  /* Registration Page */
+  .registration {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .registration h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .registration form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .registration input,
+  .registration select {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .registration button {
+    background-color: #f27f3d;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .registration button:hover {
+    background-color: #e36d2d;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
